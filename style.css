@@ -1,0 +1,48 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url("assets/bg.png");
+    size: cover;
+    
+}
+#text1{
+    color: #462b91;
+    position: absolute;
+    left: 430px;
+    top: 60px;
+    font-size: 60px;
+    font-weight: 600;
+
+}
+#text2{
+    color: white;
+    font-weight: bold;
+    
+}
+#playbuttonandrpsimg{
+    display: flex;
+    align-items: center;   
+}
+#rockpaperscissorshandimage{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    left: 250px;
+    top: 200px;
+    
+}
+.playbuttonimg{
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+    background: transparent;
+    border: none;
+}
+#playbuttonandrpsimg{
+    position: absolute;
+    left: 900px;
+    top: 650px;
+}
+#playAgain{
+    position: absolute;
+    top: 800px;
+}

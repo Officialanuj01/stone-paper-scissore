@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="game.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div id="score">
+        <span id="userScore">0</span>
+        <span>-</span>
+        <span id="compScore">0</span>
+    </div>
+    <div id="contains">
+        <div>
+            <div id="container1">
+                <span id="you">You</span>
+                <div id="gameimage"></div>
+                <div id="logoimgcontainer">
+                    <img  class="logoimage"  id ="rock" src="assets/rock-logo.png" alt="rock logo">
+                    <img  class="logoimage"  id ="paper" src="assets/paper-logo.png" alt="paper-logo">
+                    <img  class="logoimage"  id ="scissors" src="assets/scissors-logo.png" alt="scissors-logo">
+                </div>
+            </div>
+        </div>
+        <div id="container2">
+            <img src="assets/vs.png" alt="vs sign">
+        </div>
+        <div id="container3">
+            <span id="comp">Comp</span>
+            <div id="compimage"></div>
+        </div>
+    </div>
+    <h1 id="result"></h1>
+    <button id="playAgain" style="display: none">Play Again</button>
+    <button id = "quit" style="display: none"> Quit</button>
+    <script src="script.js"></script>
+</body>
+</html>
